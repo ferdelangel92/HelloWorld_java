@@ -8,10 +8,12 @@ package com.mycompany.helloworld;
 
 public class HelloWorld 
 {
-
     public static void main(String[] args) 
     {
-        double result = (double)10 / (double)3;
-        System.out.println(result);
+        //Implicit casting
+        //byte > short > int > long > float > double
+        double x = 1.1;
+        double y = x + 2;
+        System.out.println(y);
     }
 }
