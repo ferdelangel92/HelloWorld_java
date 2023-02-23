@@ -11,9 +11,9 @@ public class HelloWorld
 
     public static void main(String[] args) 
     {
-        String message = "hello world" + "!!!";        
+        String message = "  Hello World " + "   !!! ";        
         
-        System.out.println(message.toUpperCase());
+        System.out.println(message.trim());
         System.out.println(message);
     }
 }
