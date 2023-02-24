@@ -6,11 +6,15 @@
 
 package com.mycompany.helloworld;
 
+import java.util.Scanner;
+
 public class HelloWorld 
 {
     public static void main(String[] args) 
     {
-        int result = (int) (Math.random() * 100);
-        System.out.println(result);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.next();
+        System.out.println("You are " + name);
     }
 }
