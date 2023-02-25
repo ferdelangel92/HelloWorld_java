@@ -6,15 +6,10 @@
 
 package com.mycompany.helloworld;
 
-import java.util.Scanner;
-
 public class HelloWorld 
 {
     public static void main(String[] args) 
     {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Name: ");
-        String name = scanner.next();
-        System.out.println("You are " + name);
+        System.out.println("Hello World with Java");
     }
 }
